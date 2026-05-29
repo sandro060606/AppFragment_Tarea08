@@ -14,7 +14,7 @@
         android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Resta de Numeros" />
+        android:text="Resta -" />
 
     <TextView
         android:text="Resta de 2 Numeros ENTEROS"
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/txtResultado"
+        android:id="@+id/txtResultadoR"
         android:text="Resultado: "
         android:textColor="#000"
         android:textSize="20dp"

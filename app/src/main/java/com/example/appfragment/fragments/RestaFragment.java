@@ -35,7 +35,7 @@ public class RestaFragment extends Fragment {
         edtNum1 = view.findViewById(R.id.edtNum1R);
         edtNum2 = view.findViewById(R.id.edtNum2R);
         btnCalcular = view.findViewById(R.id.btnCalcularR);
-        txtResultado = view.findViewById(R.id.txtResultado);
+        txtResultado = view.findViewById(R.id.txtResultadoR);
 
         // Configurar el evento click del botón
         btnCalcular.setOnClickListener(new View.OnClickListener() {

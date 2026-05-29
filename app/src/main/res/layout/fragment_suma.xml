@@ -14,7 +14,7 @@
         android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Suma de Numeros" />
+        android:text="Suma +" />
 
     <TextView
         android:text="Suma de 2 Numeros ENTEROS"

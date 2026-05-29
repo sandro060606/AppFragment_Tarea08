@@ -45,9 +45,7 @@ public class SumaFragment extends Fragment {
                 String n2 = edtNum2.getText().toString().trim();
 
                 if (!n1.isEmpty() && !n2.isEmpty()) {
-                    int num1 = Integer.parseInt(n1);
-                    int num2 = Integer.parseInt(n2);
-                    int suma = num1 + num2;
+                    int suma = Integer.parseInt(n1) + Integer.parseInt(n2);
 
                     txtResultado.setText("Resultado: " + suma);
                 } else {
