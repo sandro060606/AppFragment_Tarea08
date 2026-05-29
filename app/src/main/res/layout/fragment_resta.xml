@@ -1,10 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
 
     <TextView
-        android:text="Resta"
+        android:layout_marginTop="20dp"
+        android:textColor="#0984e3"
+        android:padding="15dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resta de Numeros" />
+
+    <TextView
+        android:text="Resta de 2 Numeros ENTEROS"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtNum1R"
+        android:hint="Numero 1"
+        android:inputType="number"
+        android:textColorHint="#535c68"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_input"
+        android:textColor="#000"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtNum2R"
+        android:hint="Numero 2"
+        android:inputType="number"
+        android:textColorHint="#535c68"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_input"
+        android:textColor="#000"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCalcularR"
+        android:text="Calcular Resta"
+        android:textColor="#FFF"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:text="Resultado: "
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
