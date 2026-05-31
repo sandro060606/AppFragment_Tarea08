@@ -1,69 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="25dp"
+    android:layout_height="match_parent"
+    android:padding="24dp"
     android:orientation="vertical"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
 
     <TextView
-        android:layout_marginTop="20dp"
-        android:textColor="#0984e3"
-        android:padding="15dp"
-        android:textSize="35dp"
-        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Division %" />
+        android:layout_marginTop="32dp"
+        android:text="División %"
+        android:textColor="#fbc531"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <TextView
-        android:text="Division de 2 Numeros ENTEROS"
-        android:textColor="#000"
-        android:textSize="16sp"
-        android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="División de 2 Números Enteros"
+        android:textColor="#636e72"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/edtNum1D"
-        android:hint="Numero 1"
-        android:inputType="number"
-        android:textColorHint="#535c68"
-        android:layout_marginTop="20dp"
-        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/bg_input"
-        android:textColor="#000"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content" />
+        android:hint="Primer número"
+        android:inputType="number"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#2d3436"
+        android:textColorHint="#b2bec3" />
 
     <EditText
         android:id="@+id/edtNum2D"
-        android:hint="Numero 2"
-        android:inputType="number"
-        android:textColorHint="#535c68"
-        android:layout_marginTop="20dp"
-        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/bg_input"
-        android:textColor="#000"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content" />
+        android:hint="Segundo número"
+        android:inputType="number"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#2d3436"
+        android:textColorHint="#b2bec3" />
 
     <Button
         android:id="@+id/btnCalcularD"
-        android:text="Calcular Multiplicacion"
-        android:textColor="#FFF"
-        android:layout_marginTop="20dp"
-        android:textStyle="bold"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#fbc531"
+        android:text="CALCULAR DIVISIÓN"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/txtResultadoD"
-        android:text="Resultado: "
-        android:textColor="#000"
-        android:textSize="20dp"
-        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Resultado: "
+        android:textColor="#2d3436"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
